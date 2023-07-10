@@ -1,0 +1,124 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: 'sidebar nav'
+                         'sidebar main-content';
+}
+
+.sidebar {
+    grid-area: sidebar;
+    display: grid;
+    grid-template-areas: 'logo'
+                         'user-sidebar'
+                         'settings-sidebar';
+    background-color: lightblue;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+li {
+    list-style: none;
+}
+
+.user-sidebar {
+    grid-area: user-sidebar;
+}
+
+.settings-sidebar {
+    grid-area: settings-sidebar;
+}
+
+.nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-areas: 'search-bar search-bar user-profile'
+                         'user-welcome user-welcome post-options';
+    background-color: rosybrown;
+}
+
+.search-bar {
+    grid-area: search-bar;
+}
+
+.user-profile {
+    grid-area: user-profile;
+}
+
+.user-welcome {
+    grid-area: user-welcome;
+}
+
+.post-options {
+    grid-area: post-options;
+}
+
+.main-content {
+    grid-area: main-content;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:'projects-container announcements-trendings' ;
+    background-color: darkkhaki;
+}
+
+.projects-container {
+    grid-area: projects-container;
+    display: grid;
+    grid-template-areas: 'project-header'
+                         'project-items';
+    background-color: slategrey;
+}
+
+.projects-header {
+    grid-area: project-header;
+}
+
+.project-items {
+    grid-area: project-items;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.project {
+    background-color: brown;
+}
+
+.announcements-trending {
+    display: grid;
+    grid-template-areas: 'announcements-container'
+                         'trending-container';
+}
+
+.announcements-container {
+    grid-area: announcements-container;
+    display:grid;
+    grid-template-areas: 'announcements-header'
+                         'announcement-items';
+    background-color: gray;
+}
+
+.announcements-header {
+    grid-area: announcements-header;
+}
+
+.announcement-items {
+    grid-area: announcement-items;
+}
+
+.trending-container {
+   grid-area: trending-container; 
+   grid-template-areas: 'trending-header'
+                        'trending-items';
+    background-color: darkgray;
+}
+
+.trending-header {
+    grid-area: trending-header;
+}
+
+.trending-items {
+    grid-area: trending-items;
+}
