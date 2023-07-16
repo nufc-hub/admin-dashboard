@@ -5,69 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="grid">
         <div class="sidebar">
             <div class="logo">
-                <img src="../../placeholder-icon-creeper.jpg" alt="" class="logo-image">
-                Dashboard
+                <img src="../admin-dashboard/icons/view-dashboard.svg" alt="dashboard icon" class="logo-image">
+                <p>Dashboard</p>
             </div>
-            <ul class="user-sidebar">
+            <div class="divider"></div>
+            <ul>
                 <li>
-                    <a href=""><img src="../../placeholder-icon-creeper.jpg" alt="" class="sidebar-icon">
-                        Home</a>
+                    <a href=""><img src="../admin-dashboard/icons/home-variant-outline.svg" alt="homepage icon" class="sidebar-icon">
+                    <p>Home</p></a>
                 </li>
                 <li>
-                    <a href=""><img src="../../placeholder-icon-creeper.jpg" alt="" class="sidebar-icon">
-                        Profile</a>
+                    <a href=""><img src="../admin-dashboard/icons/account.svg" alt="profile icon" class="sidebar-icon">
+                    <p>Profile</p></a>
                 </li>
                 <li>
-                    <a href=""><img src="../../placeholder-icon-creeper.jpg" alt="" class="sidebar-icon">
-                        Messages</a>
+                    <a href=""><img src="../admin-dashboard/icons/message-outline.svg" alt="messages icon" class="sidebar-icon">
+                    <p>Messages</p></a>
                 </li>
                 <li>
-                    <a href=""><img src="../../placeholder-icon-creeper.jpg" alt="" class="sidebar-icon">
-                        History</a>
+                    <a href=""><img src="../admin-dashboard/icons/history.svg" alt="history icon" class="sidebar-icon">
+                    <p>History</p></a>
                 </li>
                 <li>
-                    <a href=""><img src="../../placeholder-icon-creeper.jpg" alt="" class="sidebar-icon">
-                        Tasks</a>
+                    <a href=""><img src="../admin-dashboard/icons/folder-text-outline.svg" alt="tasks icon" class="sidebar-icon">
+                    <p>Tasks</p></a>
                 </li>
                 <li>
-                    <a href=""><img src="../../placeholder-icon-creeper.jpg" alt="" class="sidebar-icon">
-                        Communities</a>
+                    <a href=""><img src="../admin-dashboard/icons/account-group.svg" alt="communities icon" class="sidebar-icon">
+                    <p>Communities</p></a>
                 </li>
             </ul>
-            <ul class="settings-sidebar">
+            <div class="divider"></div>
+            <ul>
                 <li>
-                    <a href=""><img src="../../placeholder-icon-creeper.jpg" alt="" class="sidebar-icon">
-                        Settings</a>
+                    <a href=""><img src="../admin-dashboard/icons/cog-outline.svg" alt="settings icon" class="sidebar-icon">
+                    <p>Settings</p></a>
                 </li>
                 <li>
-                    <a href=""><img src="../../placeholder-icon-creeper.jpg" alt="" class="sidebar-icon">
-                        Support</a>
+                    <a href=""><img src="../admin-dashboard/icons/help.svg" alt="support icon" class="sidebar-icon">
+                    <p>Support</p></a>
                 </li>
                 <li>
-                    <a href=""><img src="../../placeholder-icon-creeper.jpg" alt="" class="sidebar-icon">
-                        Privacy</a>
+                    <a href=""><img src="../admin-dashboard/icons/shield-check-outline.svg" alt="privacy icon" class="sidebar-icon">
+                    <p>Privacy</p></a>
                 </li>
             </ul>
         </div>
         <div class="header">
             <div class="search-container">
-                <img src="../../placeholder-icon-creeper.jpg" alt="" class="search-icon"><input type="search" class="search-bar">
+                <img src="../admin-dashboard/icons/magnify.svg" alt="search icon" class="search-icon"><input type="search" class="search-bar">
             </div>
             <div class="user-profile">
-                <img src="../../placeholder-icon-creeper.jpg" alt="" class="alerts-bell">
-                <img src="../../placeholder-icon-creeper.jpg" alt="" class="profile-image-profile">
-                <div>K.Chenouf</div>
+                <img src="../admin-dashboard/icons/bell-ring-outline.svg" alt="alerts icon" class="alerts-icon">
+                <div class="profile-image-container">
+                    <img src="../admin-dashboard/img/DALL·E 2023-07-13 20.54.10 - An arrogant monkey eating an apple while flying too close to the sun. __Style_ cartoon.png" alt="user profile image" class="profile-image">
+                </div>
+                <div>nufc</div>
             </div>
             <div class="user-welcome">
-                <img src="../../placeholder-icon-creeper.jpg" alt="" class="profile-image-welcome">
+                <img src="../admin-dashboard/img/DALL·E 2023-07-13 20.54.10 - An arrogant monkey eating an apple while flying too close to the sun. __Style_ cartoon.png" alt="user profile image">
                 <div>Hi there,
-                    <span>K.Chenouf (@kchenouf)</span>
+                    <span>nufc (@nufc23)</span>
                 </div>
             </div>
             <div class="post-options">
@@ -77,32 +84,147 @@
             </div>
         </div>
         <div class="main-content">
-            <div class="projects-container">
+            <div class="project-header-items-container">
                 <h3 class="projects-header">Your projects</h3>
-                <div class="project-items">
-                    <div class="project"><p>project 1</p></div>
-                    <div class="project"><p>project 2</p></div>
-                    <div class="project"><p>project 3</p></div>
-                    <div class="project"><p>project 4</p></div>
-                    <div class="project"><p>project 5</p></div>
-                    <div class="project"><p>project 6</p></div>
+                <div class="project-items-container">
+                    <div class="project-items">
+                        <div style="background-image: url(../admin-dashboard/img/oil1.jpg);"></div>
+                        <div>
+                            <h4>Project 1</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div>
+                            <img src="../admin-dashboard/icons/star-plus-outline.svg" alt="bookmark icon">
+                            <img src="../admin-dashboard/icons/eye-plus-outline.svg" alt="already-viewed icon">
+                            <img src="../admin-dashboard/icons/share-variant-outline.svg" alt="share post icon">
+                        </div>
+                    </div>
+                    <div class="project-items">
+                        <div style="background-image: url(../admin-dashboard/img/oil2.jpg);"></div>
+                        <div>
+                            <h4>Project 2</h4>
+                            <p> Purus viverra accumsan in nisl nisi scelerisque eu ultrices. 
+                                Facilisis volutpat est velit egestas dui id ornare arcu odio.</p>
+                        </div>
+                        <div>
+                            <img src="../admin-dashboard/icons/star-plus-outline.svg" alt="bookmark icon">
+                            <img src="../admin-dashboard/icons/eye-plus-outline.svg" alt="already-viewed icon">
+                            <img src="../admin-dashboard/icons/share-variant-outline.svg" alt="share post icon">
+                        </div>
+                    </div>
+                    <div class="project-items">
+                        <div style="background-image: url(../admin-dashboard/img/oil3.jpg);"></div>
+                        <div>
+                            <h4>Project 3</h4>
+                            <p>Dapibus ultrices in iaculis nunc. Odio aenean sed adipiscing 
+                                diam donec adipiscing tristique risus. Imperdiet dui accumsan 
+                                sit amet nulla facilisi. 3</p>
+                        </div>
+                        <div>
+                            <img src="../admin-dashboard/icons/star-plus-outline.svg" alt="bookmark icon">
+                            <img src="../admin-dashboard/icons/eye-plus-outline.svg" alt="already-viewed icon">
+                            <img src="../admin-dashboard/icons/share-variant-outline.svg" alt="share post icon">
+                        </div>
+                    </div>
+                    <div class="project-items">
+                        <div style="background-image: url(../admin-dashboard/img/oil4.jpg);"></div>
+                        <div>
+                            <h4>Project 4</h4>
+                            <p>Etiam sit amet nisl purus. Fames ac turpis egestas sed 
+                                tempus urna et pharetra. Sem et tortor consequat id porta nibh. </p>
+                        </div>
+                        <div>
+                            <img src="../admin-dashboard/icons/star-plus-outline.svg" alt="bookmark icon">
+                            <img src="../admin-dashboard/icons/eye-plus-outline.svg" alt="already-viewed icon">
+                            <img src="../admin-dashboard/icons/share-variant-outline.svg" alt="share post icon">
+                        </div>
+                    </div>
+                    <div class="project-items">
+                        <div style="background-image: url(../admin-dashboard/img/oil5.jpg);"></div>
+                        <div>
+                            <h4>Project 5</h4>
+                            <p>Metus vulputate eu scelerisque felis imperdiet proin fermentum leo. 
+                                Auctor neque vitae tempus quam pellentesque.</p>
+                        </div>
+                        <div>
+                            <img src="../admin-dashboard/icons/star-plus-outline.svg" alt="bookmark icon">
+                            <img src="../admin-dashboard/icons/eye-plus-outline.svg" alt="already-viewed icon">
+                            <img src="../admin-dashboard/icons/share-variant-outline.svg" alt="share post icon">
+                        </div>
+                    </div>
+                    <div class="project-items">
+                        <div style="background-image: url(../admin-dashboard/img/oil6.jpg);"></div>
+                        <div>
+                            <h4>Project 6</h4>
+                            <p>Tellus id interdum velit laoreet id. Enim nulla aliquet porttitor 
+                                lacus luctus accumsan tortor posuere ac.</p>
+                        </div>
+                        <div>
+                            <img src="../admin-dashboard/icons/star-plus-outline.svg" alt="bookmark icon">
+                            <img src="../admin-dashboard/icons/eye-plus-outline.svg" alt="already-viewed icon">
+                            <img src="../admin-dashboard/icons/share-variant-outline.svg" alt="share post icon">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="announcements-container">
                 <h3 class="announcements-header">Announcements</h3>
-                <ul class="announcement-items">
-                    <li>announcement 1</li>
-                    <li>announcement 2</li>
-                    <li>announcement 3</li>
-                </ul>
+                <div class="announcement-items">
+                    <div>
+                        <h5>Site Maintenance</h5>
+                        <p>Tempor id eu nisl nunc mi ipsum faucibus vitae. 
+                            Morbi tincidunt ornare massa eget egestas purus 
+                            viverra accumsan in.</p>
+                        </div>
+                    <div class="divider"></div>
+                    <div>
+                        <h5>Community Share Day</h5>
+                        <p>Nulla facilisi etiam dignissim diam quis. 
+                            Consequat ac felis donec et odio pellentesque diam.</p>
+                        </div>
+                    <div class="divider"></div>
+                    <div>
+                        <h5>Updated Privacy Policy</h5>
+                        <p>Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Lectus sit amet est placerat. </p>
+                    </div>
+                </div>
             </div>
             <div class="trending-container">
                 <h3 class="trending-header">Trending</h3>
-                <ul class="trending-items">
-                    <li>trending 1</li>
-                    <li>trending 2</li>
-                    <li>trending 3</li>
-                </ul>
+                <div class="trending-items">
+                    <div>
+                        <img src="../admin-dashboard/img/DALL·E 2023-07-13 20.51.32 - An animation of A polar bear trying to eat A pair of apple airpods, stuck in a jar of marmalade. Fuzzy_.png" alt="trending article's user profile image">
+                        <div>
+                            <p>@tegan</p>
+                            <p>World Peace Builder</p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div>
+                        <img src="../admin-dashboard/img/DALL·E 2023-07-13 20.54.10 - An arrogant monkey eating an apple while flying too close to the sun. __Style_ cartoon.png" alt="trending article's user profile image">
+                        <div>
+                            <p>@morgan</p>
+                            <p>Super Cool Project</p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div>
+                        <img src="../admin-dashboard/img/DALL·E 2023-07-13 20.52.15 - A madman enjoying life .png" alt="trending article's user profile image">
+                        <div>
+                            <p>@kendall</p>
+                            <p>Life Changing App</p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div>
+                        <img src="../admin-dashboard/img/DALL·E 2023-07-13 17.51.24 - A pink lion DJing on the moon.png" alt="trending article's user profile image">
+                        <div>
+                            <p>@alex</p>
+                            <p>No Traffic Maker</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
